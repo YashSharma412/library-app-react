@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root{
+  --bgColorPrimary: #292828;
+  --txtClrLight: #fff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+
+.nav{
+  background-color: var(--bgColorPrimary);
+  color: var(--txtClrLight);
+  padding: 0.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+
+}
